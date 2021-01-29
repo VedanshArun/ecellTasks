@@ -77,7 +77,7 @@ body{
         margin-left: 35%;
     }
     .taskbtns{
-        margin-left: 40px;
+        margin-left: 20px;
         margin-top: 20px;
         display: flex;
         flex-direction: column;
@@ -101,7 +101,7 @@ body{
 
     .footer{
         margin-top: 90px;
-        margin-left: 90px;
+        margin-left: 60px;
     }
     
 
