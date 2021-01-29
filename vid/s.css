@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.header{
+    background-color: #212b40;;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content{
+    margin-top: 150px;
+}
+
+.big-heading{
+    font-size: 120px;
+    margin-left: 37%;
+}
+.small-heading{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.taskbtns{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tasks{
+    padding: 10px 30px;
+}
+.task{
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.tasks a {
+    text-decoration: none;
+    color: #212b40;
+}
+
+.footer {
+    margin-top: 200px;
+    margin-left: 30%;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 768px) {
+    .header{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .small-heading{
+        margin-left: 25px;
+        font-size: 11px;
+    }
+    .big-heading{
+        margin-left: 35%;
+    }
+    .taskbtns{
+        margin-left: 40px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .task1{
+        margin-left: 50px;
+    }
+
+    .task2{
+        margin-left: 20px;
+    }
+    .tasks{
+        margin-top: 40px;
+    }
+
+    .tasks a{
+        font-size: 15px;
+    }
+
+    .footer{
+        margin-top: 90px;
+        margin-left: 90px;
+    }
+    
+
+}
